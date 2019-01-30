@@ -4,7 +4,7 @@ Probably apache/NGINX
 
 MUST HAVE:
 ______________________________________________
--Skript should be started from local computer
+-Skript should be started from local computer/n
 -Comments
 -Info about what is going on with skript
 -Error messaging 

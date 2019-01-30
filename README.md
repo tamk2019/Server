@@ -4,10 +4,10 @@ Probably apache/NGINX
 
 MUST HAVE:
 ______________________________________________
--Skript should be started from local computer/n
--Comments
--Info about what is going on with skript
--Error messaging 
+#-Skript should be started from local computer
+#-Comments
+#-Info about what is going on with skript
+#-Error messaging 
 ______________________________________________
 OPTIONAL:
 ______________________________________________

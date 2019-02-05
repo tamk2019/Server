@@ -2,5 +2,6 @@
 #!/bin/sh
 # This is a comment!
 # Tällä shell skriptillä luodaan etälaitteelle palvelinympäristö
-echo Hello World
-echo asd
+sudo apt-get install httpd
+systemctl enable httpd
+systemctl start httpd.service

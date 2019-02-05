@@ -1,3 +1,4 @@
-#!/bin/sh
+	#!/bin/sh
 # This is a comment!
-echo Hello World
+echo Tällä scriptilla luomme serverin ja kaynnistamme sen etakoneella.
+

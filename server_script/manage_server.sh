@@ -17,8 +17,7 @@ else
     echo "IP address not supplied, using default."
 fi
 
-function valid_ip()
-{
+function valid_ip() {
     local  ip=$1
     local  stat=1
 

@@ -1,5 +1,5 @@
 # Server
-Creating a server using ssh to remotely connetc to device, using shell skripting.<br />
+Creating a server using ssh to remotely connect to device, using shell skripting.<br />
 Probably apache/NGINX<br />
 
 MUST HAVE:<br />

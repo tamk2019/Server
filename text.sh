@@ -4,7 +4,7 @@ then
         echo File not found: creating
         touch text.txt
 fi
-echo Input text to append type /q to quit, /r to read, /rs to remove line or /e to erase file content:
+echo Input text to append type /q to quit, /r to read, /rs *string to remove lines with *string or /e to erase file content:
 read TEXT
 while [[ $TEXT != "/q" ]]; do
   if [[ $TEXT == "/e" ]]; then
@@ -16,6 +16,10 @@ while [[ $TEXT != "/q" ]]; do
   elif [[ $TEXT == "/rs" ]]; then
     echo Input part of the line to remove
     read TEXT
+    echo "$(grep -v "$TEXT" text.txt)" >text.txt
+    echo Erased lines containing: $TEXT
+  elif [[ $TEXT == /rs* ]]; then
+    TEXT=${TEXT#"/rs "}
     echo "$(grep -v "$TEXT" text.txt)" >text.txt
     echo Erased lines containing: $TEXT
   else

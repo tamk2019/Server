@@ -28,4 +28,12 @@ do
    write
 done
 
+LINES="$(cat ${FILENAME} |wc -l)"
+BYTES="$(cat ${FILENAME} |wc -c)"
+CHARS="$(cat ${FILENAME} |wc -m)"
+
 echo "Finished."
+echo "========="
+echo "Lines: ${LINES}"
+echo "Chars: ${BYTES}"
+echo "Bytes: ${CHARS}"

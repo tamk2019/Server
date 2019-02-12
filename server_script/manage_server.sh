@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SERVER_IP=192.168.1.127
-USERNAME=ubuntu
-PASSWORD=password
-REMOTE_PASSWORD=password
+SERVER_IP=89.106.37.88
+USERNAME=pi
+PASSWORD=Tamk2019
+REMOTE_PASSWORD=Tamk2019
 
 # Check that sshpass exists, if not => exit
 if  [ -x "$(sshpass -V)" ]; then
